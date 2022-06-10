@@ -1,0 +1,24 @@
+
+    /* 滚动条 整体样式 */
+    ::-webkit-scrollbar {
+        width: 5px;         /* 竖 滚动条 - 宽度 */
+        height: 0px;        /* 横 滚动条 - 高度 */
+        background-color: rgb(76, 91, 148);
+        cursor: pointer;
+    }
+    /* 滚动条 - 滑块 */
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(240, 207, 242);
+        border-radius: 3em;
+        cursor: pointer;
+    }
+    /* 箭头 - 上 */
+    ::-webkit-scrollbar-button:vertical:single-button:start {
+        background-size: 100%;
+        cursor: pointer;
+    }
+    /* 箭头 - 下 */
+    ::-webkit-scrollbar-button:vertical:single-button:end {
+        background-size: 100%;
+        cursor: pointer;
+    }
